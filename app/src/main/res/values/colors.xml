@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme">#F29100</color>
+
+
+
+
+    <color name="themeok">#FCDABE</color>
+    <color name="themeok1">#F2C7CC</color>
+    <color name="themeok2">#C0C2E2</color>
+    <color name="themeok3">#C2E7F1</color>
+    <color name="themeok4">#D7F2CE</color>
+    <color name="themeok5">#F3FBD2</color>
+</resources>

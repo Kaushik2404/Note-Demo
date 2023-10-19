@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.recyclebin.RecycleActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/heder_recyclbin"
+        android:id="@+id/headerBin"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RecycleBinView"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/notetagRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:text="Create Note...."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/andada_regular"/>
+
+
+
+
+
+
+
+</LinearLayout>

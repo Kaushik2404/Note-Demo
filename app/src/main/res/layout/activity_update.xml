@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.update.UpdateActivity"
+    android:orientation="vertical">
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/notesTitleUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edtnotes"
+        android:elevation="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Enter Notes Title"
+        android:padding="15dp"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/notesEdtUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/edtnotes"
+        android:elevation="5dp"
+        android:inputType="textMultiLine"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="top"
+        android:hint="Enter Notes....................."
+        android:padding="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update"
+        android:textColor="@color/theme"
+        android:fontFamily="@font/andada_bold"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/updateNotes"
+        android:background="@drawable/btnback"
+        android:layout_marginBottom="30dp"
+        />
+</LinearLayout>
